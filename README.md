@@ -1,1 +1,1 @@
-Hai
+Aplikasi Ini merupakan hasil dari submission didicoding yang menampilkan cerita rakyat di Indonesia ditujukan untuk anak anak yang menyukai bacaan cerita. 

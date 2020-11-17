@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bgd"
+    android:padding="5dp"
+    tools:context=".DetailCerita">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/detail_judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Sangkuriang"
+            android:textSize="29sp"
+            android:layout_centerHorizontal="true"
+            android:padding="15dp"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:textColor="#000"/>
+
+        <ImageView
+            android:id="@+id/detail_img"
+            android:layout_below="@id/detail_judul"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            tools:src="@drawable/bawang"/>
+
+
+        <TextView
+            android:id="@+id/detail_cerita"
+            android:layout_below="@id/detail_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="ereka.Segala carwa serta mengampuni perbuatan pelanggaran yang mereka telah lakukan hal mana telah melegakan dada mereka dan menghilangkan rasa sedih akibat kelalaian peringatan Tuhan tentang Iblis sehingga terjerumus menjadi mangsa bujukan dan rayuannya yang manis namun berancun itu. "
+            android:textSize="15sp"
+            android:fontFamily="casual"
+            android:textColor="#000"
+            android:layout_margin="15dp"/>
+
+    </RelativeLayout>
+
+</ScrollView>
